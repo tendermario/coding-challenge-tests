@@ -14,4 +14,6 @@ Run tests:
 npm test
 ```
 
-Add your code to `index.js`. Add tests to `test/test.js`.
+Add your code to `index.js`. Add more test cases to `test/test.js`.
+
+If you make a PR to add more test cases, don't commit your custom solutions, obviously.
