@@ -1,0 +1,23 @@
+{
+  "name": "coding-challenge-tests",
+  "version": "1.0.0",
+  "description": "This is very quickly made to run tests against your coding challenges at https://coding-challenge.lighthouselabs.ca/.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tendermario/coding-challenge-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tendermario/coding-challenge-tests/issues"
+  },
+  "homepage": "https://github.com/tendermario/coding-challenge-tests#readme",
+  "dependencies": {
+    "mocha": "^5.1.1"
+  }
+}
