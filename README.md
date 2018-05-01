@@ -5,7 +5,8 @@ Install:
 ```
 git clone git@github.com:tendermario/coding-challenge-tests.git
 cd coding-challenge-tests
-npm i```
+npm i
+```
 
 Run tests:
 
