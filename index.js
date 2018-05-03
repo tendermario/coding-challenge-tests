@@ -44,5 +44,9 @@ const gridSize = () => {
 
 module.exports = {
   // export the functions you want tested
-  gridSize
+  gridSize,
+  lightCell,
+  isSafe,
+  isDangerous,
+  distressBeacon
 }

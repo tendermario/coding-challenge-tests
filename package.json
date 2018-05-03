@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/tendermario/coding-challenge-tests#readme",
   "dependencies": {
+    "chai": "^4.1.2",
     "mocha": "^5.1.1"
   }
 }

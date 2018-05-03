@@ -1,11 +1,68 @@
 const testFunctions = require('../index.js');
+const assert = require('chai').assert;
 
 // Day 1
-var assert = require('assert');
 describe('Day 1', function() {
   describe('gridSize()', function() {
     it('should tell you the size of your grid in the format width x height', function() {
       assert.equal(testFunctions.gridSize(), "10 x 10");
+    });
+  });
+});
+
+// Day 3
+describe('Day 3', function() {
+  describe('lightCell()', function() {
+    it('should return the value at the position from the grid, e.g. F9 is blank', function() {
+      assert.equal(testFunctions.lightCell("F9"), "");
+    });
+  });
+});
+
+// Day 9
+describe('Day 9', function() {
+  describe('isSafe()', function() {
+    it(`should take a coordinate in the format 'H2' and returns true or false`, function() {
+      assert.isBoolean(testFunctions.isSafe('H2'));
+    });
+    it(`should take a coordinate in the format 'F8' and return true`, function() {
+      assert.equal(testFunctions.isSafe('F8'), true);
+    });
+    it(`should take a coordinate in the format 'D7' and return true`, function() {
+      assert.equal(testFunctions.isSafe('D7'), true);
+    });
+    it(`should take a coordinate 1 away from F8 (F9) and all return true`, function() {
+      assert.equal(testFunctions.isSafe('F9'), true);
+    });
+    it(`should take a coordinate 1 away from F8 (F7) and all return true`, function() {
+      assert.equal(testFunctions.isSafe('F7'), true);
+    });
+    it(`should take a coordinate 1 away from F8 (E7) and all return true`, function() {
+      assert.equal(testFunctions.isSafe('E7'), true);
+    });
+    it(`should take a coordinate 1 away from F8 (G7) and all return true`, function() {
+      assert.equal(testFunctions.isSafe('G7'), true);
+    });
+  });
+});
+
+// Day 14
+describe('Day 14', function() {
+  describe('isDangerous()', function() {
+    it(`should take a coordinate in the format 'H2' and returns true or false`, function() {
+      assert.isBoolean(testFunctions.isDangerous('H2'));
+    });
+    it(`should take a coordinate in the format 'F8' and return false`, function() {
+      assert.equal(testFunctions.isDangerous('F8'), false);
+    });
+  });
+});
+
+// Day 15
+describe('Day 15', function() {
+  describe('distressBeacon()', function() {
+    it(`should take a coordinate in the format 'H2' and returns a different coordinate in the same format`, function() {
+      assert.include(['E7', 'F7', 'F8'], testFunctions.distressBeacon('E8'));
     });
   });
 });
