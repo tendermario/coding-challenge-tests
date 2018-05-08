@@ -36,9 +36,12 @@ const GRID = [
 
 // place your code here
 
-const gridSize = () => {
-  return; // your code
-};
+const gridSize = () => { return; };
+const lightCell = () => { return; };
+const isSafe = () => { return; };
+const isDangerous = () => { return; };
+const distressBeacon = () => { return; };
+const percentageReport = () => { return; };
 
 // end place your code here
 
