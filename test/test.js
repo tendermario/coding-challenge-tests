@@ -67,4 +67,16 @@ describe('Day 15', function() {
   });
 });
 
+// Day 17
+describe('Day 17', function() {
+  describe('percentageReport()', function() {
+    it(`should return an array of the percentages of the grid being rocks and currents, e.g. [10, 7]`, function() {
+      let arr = testFunctions.percentageReport();
+      assert.isArray(arr);
+      assert.equal(arr[0], 10);
+      assert.equal(arr[1], 7);
+    });
+  });
+});
+
 // TODO: Add the rest of the tests, make a pull request if you want to help out

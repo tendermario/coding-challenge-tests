@@ -48,5 +48,6 @@ module.exports = {
   lightCell,
   isSafe,
   isDangerous,
-  distressBeacon
+  distressBeacon,
+  percentageReport
 }
