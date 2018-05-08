@@ -67,6 +67,13 @@ describe('Day 15', function() {
   });
 });
 
+// Day 16
+describe('Day 16', function() {
+  describe.skip('Add a rock added to J9', function() {
+    // figure out a way to add this test without giving away the answer
+  });
+});
+
 // Day 17
 describe('Day 17', function() {
   describe('percentageReport()', function() {
