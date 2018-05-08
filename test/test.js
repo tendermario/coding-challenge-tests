@@ -83,6 +83,9 @@ describe('Day 17', function() {
       assert.equal(arr[0], 10);
       assert.equal(arr[1], 7);
     });
+    it.skip(`should be rounded to two decimal places if the result is a fraction`, function() {
+      // Not sure how to create this test
+    });
   });
 });
 
