@@ -34,23 +34,45 @@ const GRID = [
 // 10 |   | ^ |   |   | ~ | ~ |   |   |   |   |
 //    +---+---+---+---+---+---+---+---+---+---+
 
-// place your code here
+// place your code here, replacing the functions you want to test
 
-const gridSize = () => { return; };
-const lightCell = () => { return; };
-const isSafe = () => { return; };
-const isDangerous = () => { return; };
-const distressBeacon = () => { return; };
-const percentageReport = () => { return; };
+const gridSize = () => {return;};
+const totalCells = grid => {return;};
+const lightCell = cell => {return;};
+const isRock = cell => {return;};
+const isCurrent = cell => {return;};
+const lightRow = row => {return;};
+const lightColumn = column => {return;};
+const isSafe = cell => {return;};
+const allRocks = () => {return;};
+const allCurrents = () => {return;};
+const firstRock = () => {return;};
+const firstCurrent = () => {return;};
+const isDangerous = cell => {return;};
+const distressBeacon = cell => {return;};
+const percentageReport = () => {return;};
+const safetyReport = () => {return;}
+const calcDistance = (start, end) => {return;}
 
 // end place your code here
 
 module.exports = {
   // export the functions you want tested
   gridSize,
+  totalCells,
   lightCell,
+  isRock,
+  isCurrent,
+  lightRow,
+  lightColumn,
   isSafe,
+  allRocks,
+  allCurrents,
+  firstRock,
+  firstCurrent,
   isDangerous,
   distressBeacon,
-  percentageReport
+  percentageReport,
+  safetyReport,
+  calcDistance
 }

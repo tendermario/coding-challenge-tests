@@ -75,7 +75,7 @@ describe('Day 16', function() {
 });
 
 // Day 17
-describe('Day 17', function() {
+describe.skip('Day 17', function() {
   describe('percentageReport()', function() {
     it(`should return an array of the percentages of the grid being rocks and currents, e.g. [10, 7]`, function() {
       let arr = testFunctions.percentageReport();
@@ -85,6 +85,15 @@ describe('Day 17', function() {
     });
     it.skip(`should be rounded to two decimal places if the result is a fraction`, function() {
       // Not sure how to create this test
+    });
+  });
+});
+
+// Day 20
+describe('Day 20', function() {
+  describe('calcDistance()', function() {
+    it(`should return the distance between two points on a grid, e.g. calcDistance('A1', 'C3') should return 2.83`, function() {
+      assert.equal(2.83, testFunctions.calcDistance('A1', 'C3'));
     });
   });
 });
